@@ -1,0 +1,7 @@
+{
+  "name": "2025-05-30",
+  "compatibility_date": "2024-06-01",
+  // Slidev projects are static-site generators and do not require a Cloudflare Worker entrypoint.
+  // Typically, you do not need a wrangler config for Slidev builds.
+  // If deploying static assets, configure your static host (e.g. Vercel, Netlify) instead.
+}
