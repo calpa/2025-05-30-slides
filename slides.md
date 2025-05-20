@@ -314,8 +314,6 @@ class: flex flex-col h-full justify-center gap-4
 ## 接下來的計畫
 
 - 1/6 台北《AI 煉金術》實體分享會
-- 14/6 旅遊助手 App 實作分享會
-
 
 ::right::
 
