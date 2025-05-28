@@ -12,20 +12,75 @@ mdc: true
 />
 
 ---
+layout: center
+class: bg-[#172966] text-white font-mono
+---
+
+<div class="text-3xl font-bold text-center leading-snug">
+ Vibe Coding 實作工作坊|0-1生成並部屬自己的第一個產品
+</div>
+<div class="text-xs opacity-50">2025-05-30</div>
+
+<div class="text-xs italic opacity-50">Calpa Liu</div>
+
+---
+layout: center
+class: bg-[#172966] text-white font-mono
+---
+
+<div class="text-xl opacity-70 mb-2">你是不是也曾經想過...</div>
+
+<div class="text-2xl sm:text-3xl font-bold leading-snug text-red-400">
+  「我有一個點子，<br />但完全不會寫程式該怎麼辦？」
+</div>
+
+<div class="text-2xl sm:text-3xl text-green-300 mt-6" v-click>
+  今天，我會帶你用 Cursor + Supabase + Zeabur，<br />
+  帶你如何不寫一句程式碼也能做出能打開、能操作的產品原型！
+</div>
+
+---
 layout: two-cols
 class: flex flex-col h-full justify-center items-center gap-4
 ---
 
-- 💻 熟悉 TypeScript, React, Node.js, Solidity
-- 🛠️ 曾任職多家科技公司全端工程師
-- 🥈 ETHGlobal Taipei 2025 1inch 賽道銀獎
-- ChatGPT, Windsurf, Bolt.new 等 AI 工具重度使用者
+## 👋 大家好，我是 Calpa
+
+- 2017 年開始寫程式，一路從全端工程師走到 Web3 領域
+- 2025 年開始每天分享技術文章，現在累積已超過 270 篇
+- 我用 ChatGPT + Bolt.new 實作過 10+ 個 AI 工具 App
+- 喜歡用簡單的方法解釋複雜的技術，也辦過 6 場 AI 實作分享會！
 
 ::right::
 
 <img src="https://assets.calpa.me/public/pfp.avif" class="rounded-full w-36 h-36 border-4 border-white shadow-lg" alt="Calpa Liu">
 
-<div class="text-xl font-bold">Calpa Liu</div>
+<div class="text-xl font-bold mt-2">Calpa Liu</div>
+<div class="text-sm opacity-70">全端工程師 / AI 工具愛好者 / 技術寫作者</div>
+
+---
+layout: center
+---
+
+## 到底我用 AI 做了什麼？
+
+---
+layout: two-cols
+class: flex flex-col h-full justify-center items-center
+---
+
+## OrbitGO
+
+2025-04-04 ~ 2025-04-06
+
+- 🥈 榮獲 ETHGlobal Taipei 2025 黑客松 1inch 賽道第二名
+- 整合 1inch Portfolio API，實作多鏈資產查詢與視覺化介面
+
+<div class="text-blue-400">https://orbitgo.calpa.me/</div>
+
+::right::
+
+![1inch 賽道銀獎](https://assets.calpa.me/ethglobal-taipei-2025-1inch-best-portfolio-tracker.avif)
 
 ---
 layout: two-cols
@@ -34,6 +89,8 @@ class: flex flex-col h-full justify-center gap-4 text-white
 ---
 
 ## 技術博客
+
+2017 ~
 
 - 持續分享前端、後端與 Web3 技術文章與實作心得，涵蓋 Astro、React.js、TypeScript 等主題
 - 2025 年 3 月中開始每日一篇鐵人賽
@@ -47,42 +104,18 @@ class: flex flex-col h-full justify-center gap-4 text-white
 
 ---
 layout: two-cols
-layoutClass: gap-4
-class: flex flex-col h-full justify-center gap-4
+class: flex flex-col h-full justify-center items-center
 ---
 
-## OrbitGO
+## 紫微斗數排盤系統
 
-- 🥈 榮獲 ETHGlobal Taipei 2025 黑客松 1inch 賽道第二名
-- 整合 1inch Portfolio API，實作多鏈資產查詢與視覺化介面
+2025-05-22 ~
 
-<div class="text-blue-400">https://orbitgo.calpa.me/</div>
+https://calpa.me/tools/ziwei/
 
 ::right::
 
-![1inch 賽道銀獎](https://assets.calpa.me/ethglobal-taipei-2025-1inch-best-portfolio-tracker.avif)
-
----
-layout: two-cols
-layoutClass: gap-4
-class: flex flex-col h-full justify-center gap-4
----
-
-## Urusai
-
-你的數位噪音保護罩
-
-- 📦 Github 76 ⭐️
-- 利用隨機 HTTP/DNS 請求產生流量噪音
-- 保護用戶瀏覽隱私，支援多平台與自定義規則
-- 對抗網路監控的輕量級隱私工具
-- 使用 Go 語言開發
-
-<div class="text-blue-400">https://github.com/calpa/urusai</div>
-
-::right::
-
-![Urusai](https://i.imgur.com/KTPJizf.png)
+<img src="https://assets.calpa.me/紫微斗數排盤系統.avif" class="w-full my-4 object-contain mx-auto" />
 
 
 ---
@@ -332,24 +365,28 @@ class: flex flex-col h-full justify-center gap-4
 
 ---
 
-## 📍 6/1（台北）｜《AI 煉金術》實體分享會
-從靈感到 Side Project，用 AI 工具煉出你的創作流程。
+## 📍 6/1（台北）
 
-工具包含 ChatGPT、Firecrawl、Notion 等
+《AI 煉金術》實體分享會
 
-分享我從 prompt → 文章 → 產品的完整流程
+- 從靈感到 Side Project，用 AI 工具煉出你的創作流程
+- 工具包含 ChatGPT、Firecrawl、Notion
+- 分享我從 prompt → 文章 → 產品的完整流程
 
 📅 時間：6/1（週日）15:00 – 18:00
 
-📍 地點：台北捷運站附近
-
-👥 已報名人數：17 / 30 人
+📍 地點：小樹屋｜龍眼 501
+- 捷運西門站 3 分鐘
+- 台北市萬華區成都路67號5樓之1-501房
 
 🆓 免費參加
 
 📌 報名表單：
 👉 https://go.calpa.me/2025-06-01
 
+::right::
+
+<img src="https://assets.thehapp.com/jZOMrUk.jpg" class="w-full my-4 object-contain mx-auto" />
 ---
 
 ## 謝謝大家
