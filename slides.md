@@ -11,17 +11,18 @@ mdc: true
   quote="Calpa Liu"
 />
 
----
-layout: center
-class: bg-[#172966] text-white font-mono
+--- 
+class: bg-[#172966] text-white font-mono flex flex-col h-full justify-center items-center gap-4 relative
 ---
 
-<div class="text-3xl font-bold text-center leading-snug">
- Vibe Coding 實作工作坊|0-1生成並部屬自己的第一個產品
+<div class="flex flex-col h-full justify-center items-center gap-4 z-10 relative mx-auto">
+  <div class="text-3xl font-bold text-center leading-snug">
+    Vibe Coding 實作工作坊|0-1生成並部屬自己的第一個產品
+  </div>
+  <div class="text-xs opacity-50">2025-05-30</div>
+
+  <div class="text-xs italic opacity-50">Calpa Liu</div>
 </div>
-<div class="text-xs opacity-50">2025-05-30</div>
-
-<div class="text-xs italic opacity-50">Calpa Liu</div>
 
 ---
 layout: center
@@ -64,6 +65,10 @@ layout: center
 
 ## 到底我用 AI 做了什麼？
 
+- 持續每日一篇技術文章
+- 用 ChatGPT + Bolt.new 實作過 10+ 個 AI 工具 App
+- 喜歡用簡單的方法解釋複雜的技術，也辦過 6 場 AI 實作分享會！
+
 ---
 layout: two-cols
 class: flex flex-col h-full justify-center items-center
@@ -90,7 +95,7 @@ class: flex flex-col h-full justify-center gap-4 text-white
 
 ## 技術博客
 
-2017 ~
+2017 ~ 2025
 
 - 持續分享前端、後端與 Web3 技術文章與實作心得，涵蓋 Astro、React.js、TypeScript 等主題
 - 2025 年 3 月中開始每日一篇鐵人賽
@@ -109,7 +114,7 @@ class: flex flex-col h-full justify-center items-center
 
 ## 紫微斗數排盤系統
 
-2025-05-22 ~
+2025-05-22 ~ 2025-05-28
 
 https://calpa.me/tools/ziwei/
 
