@@ -70,6 +70,10 @@ layout: center
 - 喜歡用簡單的方法解釋複雜的技術，也辦過 6 場 AI 實作分享會！
 
 ---
+
+<img src="https://assets.calpa.me/information.avif" class="h-[50vh] object-contain mx-auto" />
+
+---
 layout: two-cols
 class: flex flex-col h-full justify-center items-center
 ---
@@ -130,57 +134,51 @@ class: bg-[#172966] text-white
 
 # 網站是如何運作的？
 
+<img src="https://assets.calpa.me/rahul-mishra-XXMA-8fBB-g-unsplash.avif" class="h-[30vh] my-4 object-contain mx-auto" />
+
 ---
 layout: center
 ---
 
 ## 前端
 
-```mermaid
-flowchart LR
-    User["<span style='color:white'>🧑‍💻<br>使用者介面<br><span style='font-size:12px'>(內容展示與互動)</span></span>"]
-    HTML["<span style='color:white'>📝<br>HTML<br><span style='font-size:12px'>(結構)</span></span>"]
-    CSS["<span style='color:white'>🎨<br>CSS<br><span style='font-size:12px'>(樣式)</span></span>"]
-    JS["<span style='color:white'>⚡<br>JavaScript<br><span style='font-size:12px'>(互動)</span></span>"]
-    User --> HTML
-    User --> CSS
-    User --> JS
-
-  style User fill:#2563eb,stroke:#60a5fa,stroke-width:2px,color:#fff
-  style HTML fill:#fbbf24,stroke:#b45309,stroke-width:2px,color:#fff
-  style CSS fill:#059669,stroke:#22d3ee,stroke-width:2px,color:#fff
-  style JS fill:#fde68a,stroke:#f59e42,stroke-width:2px,color:#222
-```
+- 📝 HTML（結構）：負責網頁的基本骨架與內容  
+  例如：`<h1>標題</h1>`、`<p>段落內容</p>`
+- 🎨 CSS（樣式）：讓網頁看起來更美觀，調整顏色、字型、版面  
+  例如：`h1 { color: blue; font-size: 2rem; }`
+- ⚡ JavaScript（互動）：讓網頁具備互動功能，例如按鈕點擊、動畫效果  
+  例如：`document.querySelector('button').onclick = () => alert('Hello!')`
 
 ---
-layout: center
+
+## 現代前端框架
+
+<img src="https://cpecbghjua.cloudimg.io/_r2_/tools/astro_official_integrations.png" class="w-128 my-4 object-cover mx-auto" />
+
 ---
 
 ## 伺服器端
 
-```mermaid
-flowchart LR
-  USER --> API
-
-  API["API<br>邏輯處理"]
-  DB["資料庫<br>資料儲存"]
-  Auth["認證<br>使用者管理"]
-  API --> DB
-  API --> Auth
-```
+- API：負責邏輯處理
+  - 接收用戶請求
+  - 執行商業邏輯
+  - 整合其他伺服器端服務
+- 資料庫：資料儲存
+  - 儲存和讀取資料
+  - 支援資料查詢與寫入
+- 認證：使用者管理
+  - 驗證使用者身份
+  - 管理登入、註冊、權限等資訊
+- 流程說明：
+  - 用戶向 API 發送請求
+  - API 根據需求存取資料庫
+  - API 與認證服務協作，完成身份驗證
 
 ---
 class: flex flex-col h-full justify-center items-center gap-4
 ---
 
 <SDLC />
-
----
-layout: center
-class: bg-[#172966] text-white
----
-
-# 現代網頁開發新選擇
 
 ---
 layout: two-cols
@@ -194,12 +192,15 @@ class: flex flex-col h-full justify-center gap-4
 - 頁面載入速度極快，體驗流暢
 - 支援多種主流前端技術（如 React、Vue 等）
 
+https://astro.build/
+
 ::right::
 
 ![Astro](https://cpecbghjua.cloudimg.io/_r2_/homepage/astro_2023_10.png)
 
 ---
-layout: center
+layout: two-cols
+class: flex flex-col h-full justify-center gap-4
 ---
 
 ## Supabase
@@ -209,8 +210,15 @@ layout: center
 - 內建用戶認證與授權
 - 提供簡潔易用的 API，方便前後端整合
 
+https://supabase.com/
+
+::right::
+
+<img src="https://assets.calpa.me/supabase-homepage.avif" class="w-full my-4 object-contain mx-auto" />
+
 ---
-layout: center
+layout: two-cols
+class: flex flex-col h-full justify-center gap-4
 ---
 
 ## Drizzle ORM
@@ -220,6 +228,15 @@ layout: center
 - 編譯時自動產生 SQL，避免手寫錯誤
 - 整合 Migration、Schema、型別推斷，開發更安心
 
+https://orm.drizzle.team/
+
+::right::
+
+<img src="https://assets.calpa.me/drizzle-orm-homepage.avif" class="w-full my-4 object-contain mx-auto" />
+
+---
+layout: two-cols
+class: flex flex-col h-full justify-center gap-4
 ---
 
 ## Zeabur
@@ -231,17 +248,11 @@ layout: center
 - 內建 CI/CD 流程，自動化部署
 - 支援自訂網域和 SSL 憑證
 
----
+https://zeabur.com/
 
-## 實作示範：建立部落格
+::right::
 
-1. 建立 Astro 專案
-2. 設計資料庫結構
-3. 整合 Supabase
-4. 實作 CRUD 功能
-5. 部署上線
-
-<div class="text-blue-400">讓我們開始吧！</div>
+<img src="https://assets.calpa.me/zeabur.avif" class="w-full my-4 object-contain mx-auto" />
 
 ---
 layout: center
@@ -281,6 +292,8 @@ npm install @supabase/supabase-js
 ```
 
 ---
+class: flex flex-col h-full justify-center gap-4
+---
 
 ## 3. 設計資料庫
 
@@ -297,6 +310,8 @@ export const posts = pgTable('posts', {
 })
 ```
 
+---
+class: flex flex-col h-full justify-center gap-4
 ---
 
 ## 4. 環境變數設定
@@ -346,28 +361,8 @@ class: bg-[#172966] text-white
 - [我的技術部落格](https://calpa.me/)
 
 ---
-layout: center
-class: bg-[#172966] text-white
----
-
-# Q & A
-
-有任何問題嗎？
-
----
 layout: two-cols
-layoutClass: gap-4
-class: flex flex-col h-full justify-center gap-4
----
-
-## 接下來的計畫
-
-- 1/6 台北《AI 煉金術》實體分享會
-
-::right::
-
-![Train on Railway at Daytime](https://assets.calpa.me/b-k-HAl6CKxM3xU-unsplash.avif)
-
+class: flex flex-col h-full justify-center
 ---
 
 ## 📍 6/1（台北）
@@ -391,7 +386,8 @@ class: flex flex-col h-full justify-center gap-4
 
 ::right::
 
-<img src="https://assets.thehapp.com/jZOMrUk.jpg" class="w-full my-4 object-contain mx-auto" />
+<img src="https://assets.calpa.me/小樹屋-龍眼-501.avif" class="w-full my-4 object-contain mx-auto" />
+
 ---
 
 ## 謝謝大家
