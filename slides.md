@@ -50,7 +50,7 @@ class: flex flex-col h-full justify-center items-center gap-4
 - 2017 年開始寫程式，一路從全端工程師走到 Web3 領域
 - 2025 年開始每天分享技術文章，現在累積已超過 270 篇
 - 我用 ChatGPT + Bolt.new 實作過 10+ 個 AI 工具 App
-- 喜歡用簡單的方法解釋複雜的技術，也辦過 6 場 AI 實作分享會！
+- 喜歡用簡單的方法解釋複雜的技術，也辦過 5 場 AI 實作分享會！
 
 ::right::
 
