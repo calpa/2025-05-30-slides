@@ -389,11 +389,12 @@ class: flex flex-col h-full justify-center
 <img src="https://assets.calpa.me/小樹屋-龍眼-501.avif" class="w-full my-4 object-contain mx-auto" />
 
 ---
+class: flex flex-col h-full justify-center
+---
 
 ## 謝謝大家
 
-<img src="https://assets.calpa.me/感謝您讓我占用的寶貴時間.avif" class="w-2/3 my-4 object-contain mx-auto" />
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://discord.com/invite/Cb9F6MTC26" alt="Discord QR Code" class="w-36 my-4 object-contain mx-auto" />
 
 
-- 🎯 今天，我們完成了從需求分析到報名系統的一條龍自動化流程
 - 📩 有問題歡迎私訊，我會在 Discord 回應大家的提問！
